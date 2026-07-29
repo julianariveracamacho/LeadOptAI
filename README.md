@@ -1,5 +1,5 @@
 # ChemForge
-ChemForge: Chemistry-Guided Substructure Masking for Molecular Representation Learning
+#ChemForge: Chemistry-Guided Substructure Masking for Molecular Representation Learning
 
 A chemistry-aware Transformer framework for molecular representation learning from SMILES.
 
@@ -19,7 +19,7 @@ The main objective is to reconstruct masked molecular substructures while learni
 representations that encode both molecular syntax and chemical structure.
 
 ---
-##Thesis Objective
+#Thesis Objective
 
 Standard masked language models typically select tokens independently or mask arbitrary contiguous spans. For molecular strings, these masking strategies may ignore chemically meaningful substructures.
 
@@ -36,7 +36,7 @@ An additional ablation investigates whether atom-level features improve molecula
 
 ---
 
-##Model Overview
+#Model Overview
 
 The model is a Transformer encoder that processes sequences containing molecular properties and SMILES tokens.
 
